@@ -18,6 +18,10 @@ a.active hr {
 /*navlink only we are using but in the console it was showing like anchor tag so once we click the anchor tag it changed to active so the pseudo will work as same as from the beginning
 */
 
+::-webkit-scrollbar {
+    display:none;
+}
+
 @media (max-width:640px) {
     a.active {
         background-color: black;
